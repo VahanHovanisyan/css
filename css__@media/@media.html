@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>@media</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="page__body">
+	<main class="main">
+		<article class="media">
+			<h1 class="media__title">@media</h1>
+			<p class="media__subtext">
+				Հրահանգ, որը թույլ է տալիս տարբեր ոճեր սահմանել էկրանի տարբեր պարամետրերի համար՝
+				լայնություն, բարձրություն, կողմնորոշում և նույնիսկ սարքի տեսակը
+<pre style="font-size: 25px; font-weight: 700;">
+	@media սարքի տեսակը (սարքի բնութագիրը) {
+		․selector{
+			հատկություն։ առժեք;
+		}
+	}
+</pre>
+			</p>
+			<section class="media__section">
+				<h2 class="title media__max-width">
+					@media (max-width:767px) {
+						.selector{
+							background-color: red;
+							color: white;
+						}
+					}
+				</h2>
+				<p class="media__text">
+				</p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__max-height">
+					@media (max-height:767px) {
+						.selector{
+							background-color: yellow;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__min-width">
+					@media (min-width:768px) {
+						.selector{
+							background-color: blue;
+							color:white;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__min-height">
+					@media (min-height:768px) {
+						.selector{
+							background-color: green;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__min-width-max-width">
+					@media (min-width:576px) and (max-width:991px) {
+						.selector{
+							background-color: orange;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__hover">
+					@media (pointer: fine) and (hover: hover) {
+						.selector:hover {
+							background-color: pink;
+						}
+					}
+				</h2>
+				<button class="media__button">button</button>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__hover-none">
+					@media (pointer: coarse) {
+						.selector {
+							background-color: greenyellow;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__orientation media__orientation_landscape">
+					@media (orientation: landscape) {
+						.selector{
+							background-color: purple;
+							color: white;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__orientation media__orientation_portrait">
+					@media (orientation: portrait) {
+						.selector{
+							background-color: aqua;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+			<section class="media__section">
+				<h2 class="title media__print">
+					@media print {
+						.selector{
+							color: red;
+						}
+					}
+				</h2>
+				<p class="media__text"></p>
+			</section>
+
+			<section class="media__section">
+				<h2>Recomended Breakpoints</h2>
+
+				<h3>Extra large devices (large desktops, 1200px and up)</h3>
+				<span>@media(min-width:1200px){...}</span>
+
+				<h3>description": "Large devices (desktops, 992px and up)</h3>
+				<span>@media(min-width:992px){...}</span>
+
+				<h3>description": "Medium devices (tablets, 768px and up)</h3>
+				<span>@media(min-width:768px){...}</span>
+
+				<h3>Small devices (landscape phones, 576px and up)</h3>
+				<span>@media(min-width:576px){...}</span>
+
+				<h3>Extra small devices (portrait phones, less than 576px)</h3>
+				<span>@media(max-width:575.98px){...}</span>
+			</section>
+		</article>
+	</main>
+</body>
+
+</html>

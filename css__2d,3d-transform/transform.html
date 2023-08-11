@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="page" lang="hy">
+   <head>
+      <meta charset="UTF-8" >
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+      <link rel="stylesheet" href="css/style.css" >
+      <title>transform 2D,3D</title>
+   </head>
+
+   <body class="page__body">
+      <main class="main">
+         <section class="transform-2D">
+            <h1 class="title-large title-large_main">CSS Transform</h1>
+            <div class="transform-2D__container container">
+               <h2 class="transform-2D__title title-large">CSS Transform 2D</h2>
+               <article class="transform-2D__box">
+                  <h3 class="transform-2D__box-title title">translate (x, y)</h3>
+                  <img class="transform-2D__example transform-2D__example_translate" src="img/Screenshot_21.png" alt="tiger head" >
+                  <p class="transform-2D__descr text">
+                     Տեղափոխում է elemente դեպի նոր տեղ՝ այն տեղափոխելով
+                     աջ և ներքև՝ օբյեկտի սկզբնական դիրքի համեմատ՝
+                     օգտագործելով X և Y կոորդինատները:
+                  </p>
+               </article>
+               <article class="transform-2D__box">
+                  <h3 class="transform-2D__box-title title">scale (x, y)</h3>
+                  <img class="transform-2D__example transform-2D__example_scale" src="img/Screenshot_20.png" alt="tiger head" >
+                  <p class="transform-2D__descr text">
+                     մասշտաբում է տարրերը՝ դրանք մեծացնելով կամ
+                     փոքրացնելով: Լռելյայնորեն, արժեքները նշված են որպես
+                     միավոր (1) - սա օբյեկտի իրական չափն է: Առաջին արժեքը
+                     չափում է տարրը լայնությամբ, երկրորդը՝ բարձրությամբ:
+                     Բացասական արժեքները արտացոլում են տարրը:
+                  </p>
+               </article>
+               <article class="transform-2D__box">
+                  <h3 class="transform-2D__box-title title">rotate (անկյուն+deg)</h3>
+                  <img class="transform-2D__example transform-2D__example_rotate" src="img/Screenshot_21.png" alt="tiger head" >
+                  <p class="transform-2D__descr text">
+                     պտտել - պտտում է տարրերը նշված աստիճանների քանակով,
+                     բացասական արժեքները պտտում են տարրը ժամացույցի սլաքի
+                     ուղղությամբ, դրական արժեքները պտտում են տարրը
+                     ժամացույցի սլաքի ուղղությամբ: Արժեքները գրվում են
+                     որպես ռոտացիայի աստիճաններ և աստիճաններ
+                  </p>
+               </article>
+               <article class="transform-2D__box">
+                  <h3 class="transform-2D__box-title title">skew (x-անկյուն + deg, y-անկյուն + deg)</h3>
+                  <img class="transform-2D__example transform-2D__example_skew" src="img/Screenshot_20.png" alt="tiger head" >
+                  <p class="transform-2D__descr text">
+                     դեֆորմացնում (խեղաթյուրում է) օբյեկտի կողմերը
+                     կոորդինատային առանցքների համեմատ: Եթե ​​նշված է մեկ
+                     արժեք, ապա երկրորդը կորոշվի ավտոմատ կերպով բրաուզերի
+                     կողմից: Արժեքները գրվում են որպես ռոտացիայի
+                     աստիճաններ և աստիճաններ
+                  </p>
+               </article>
+               <article class="transform-2D__box">
+                  <h3 class="transform-2D__box-title title">
+                     Բազմաթիվ 2D փոխակերպումներ<br >
+                     transform: <br> translate(0, 0) <br> scale(0.7, 0.7) <br> rotate(
+                     90deg) <br> skew(0deg, 0deg);
+                  </h3>
+                  <img class="transform-2D__example transform-2D__example_transform" src="img/Screenshot_20.png" alt="tiger head" >
+                  <p class="transform-2D__descr text">
+                     Բացի այդ, դրան կարելի է հասնել բազմաթիվ
+                     փոխակերպումների միջոցով: Մասնավորապես, գրեք բազմաթիվ
+                     արժեքներ մեկ փոխակերպման հատկության մեջ:
+                  </p>
+               </article>
+               <article class="transform-2D__box">
+                  <h3 class="transform-2D__box-title title">transform-origin</h3>
+                  <img class="transform-2D__example transform-2D__example_transform-origin" src="img/Screenshot_20.png"
+                     alt="tiger head" >
+                  <p class="transform-2D__descr text">
+                     transform-origin- թույլ է տալիս տեղափոխել վերափոխման
+                     կենտրոնը, որի համեմատ փոխվում է elementi դիրքը / չափը
+                     / ձևը
+                  </p>
+               </article>
+            </div>
+         </section>
+
+         <section class="transform-3D">
+            <div class="transform-3D__container container">
+               <h2 class="transform-3D__title title-large">CSS Transform 3D</h2>
+               <article class="transform-3D__box">
+                  <h3 class="transform-3D__box-title title">perspective, perspective-origin</h3>
+                  <div class="transform-3D__example transform-3D__example_perspective-origin">
+                     <img class="transform-3D__img transform-3D__img_front_perspective-origin"
+                        src="img/parallel_parking.svg" alt="road" >
+                     <img class="transform-3D__img transform-3D__img_back_perspective-origin" src="img/raduga.png"
+                        alt="rainbow" >
+                  </div>
+                  <p class="transform-3D__descr text">
+                     perspective, perspective-origin- խորությունը
+                     սահմանելը և ծագման կետը փոխելը
+                  </p>
+               </article>
+               <article class="transform-3D__box">
+                  <h3 class="transform-3D__box-title title">translate3d (x, y, z)</h3>
+                  <div class="transform-3D__example">
+                     <img class="transform-3D__img transform-3D__img_translate" src="img/Screenshot_21.png" alt="tiger head" >
+                  </div>
+                  <p class="transform-3D__descr text">
+                     translate3D - ի անալոգիա իր 2D եղբոր հետ, այս արժեքը
+                     սահմանում է տարրի շարժումը, բայց 3D տարածության մեջ:
+                     Բացի X և Y առանցքներից, ավելացվում է Z առանցքը:
+                  </p>
+               </article>
+               <article class="transform-3D__box">
+                  <h3 class="transform-3D__box-title title">scale3d (x, y, z)</h3>
+                  <div class="transform-3D__example">
+                     <img class="transform-3D__img transform-3D__img_scale" src="img/Screenshot_20.png" alt="tiger head" >
+                  </div>
+                  <p class="transform-3D__descr text">
+                     scale3D - սահմանում է եռաչափ mashtab X, Y, Z
+                     առանցքներից մեկի երկայնքով
+                  </p>
+               </article>
+               <article class="transform-3D__box">
+                  <h3 class="transform-3D__box-title title">rotate3d (x, y, z, deg)</h3>
+                  <div class="transform-3D__example">
+                     <img class="transform-3D__img transform-3D__img_rotate" src="img/Screenshot_21.png" alt="tiger head" >
+                  </div>
+                  <p class="transform-3D__descr text">
+                     rotate3d - պտտում է elemente երեք առանցքի շուրջ:
+                     elemente պտտվում է վերջին պարամետրով սահմանված անկյան
+                     տակ X, Y, Z ուղղության վեկտորի նկատմամբ
+                  </p>
+               </article>
+               <article class="transform-3D__box">
+                  <h3 class="transform-3D__box-title title">
+                     Բազմաթիվ 3D փոխակերպումներ<br ><br >
+                     transform: translate3d(0, 0, 0) scale(0.7, 0.7, 0.7)
+                     rotate(1, 1, 1, 90deg)
+                  </h3>
+                  <div class="transform-3D__example">
+                     <img class="transform-3D__img transform-3D__img_transform" src="img/Screenshot_20.png" alt="tiger head" >
+                  </div>
+                  <p class="transform-3D__descr text">
+                     Բազմաթիվ 3D արժեքներ գրելը մեկ փոխակերպման հատկության մեջ:
+                  </p>
+               </article>
+               <article class="transform-3D__box">
+                  <h3 class="transform-3D__box-title title">transform-style</h3>
+                  <div class="transform-3D__example transform-3D__example_transform-style">
+                     <img class="transform-3D__img" src="img/dur.jpg" alt="door" >
+                  </div>
+                  <p class="transform-3D__descr text">
+                     transform-style- սահմանում է փոխակերպման ոճը
+                  </p>
+               </article>
+               <article class="transform-3D__box">
+                  <h3 class="transform-3D__box-title title">Backface-visibility</h3>
+                  <div class="transform-3D__example transform-3D__example_backface">
+                     <img class="transform-3D__img transform-3D__img_front_backface" src="img/Screenshot_21.png" alt="tiger head" >
+                     <img class="transform-3D__img transform-3D__img_back_backface" src="img/Screenshot_20.png" alt="tiger head" >
+                  </div>
+                  <p class="transform-3D__descr text">
+                     Հատկությունը որոշում է, թե արդյոք elementi հակառակ կողմը տեսանելի կլինի օգտագործողին:
+                  </p>
+               </article>
+            </div>
+         </section>
+      </main>
+   </body>
+</html>

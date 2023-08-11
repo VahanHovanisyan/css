@@ -1,0 +1,17 @@
+.page__body{font-family: Arial, sans-serif;}
+.box-sizing {
+}
+.box-sizing__title {
+  font-size: 45px;
+}
+.box-sizing__block-tag {
+  background-color: #7bff00;
+  padding: 50px;
+}
+.box-sizing__inline-tag {
+  background-color: #ff7300;
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}

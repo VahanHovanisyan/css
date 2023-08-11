@@ -1,0 +1,47 @@
+*,*::before,::after{box-sizing: inherit;}
+.page {box-sizing: border-box;}
+.page__body {
+  font-family: Arial, sans-serif;
+}
+.main {
+}
+.opacity {
+}
+.opacity__title {
+  font-size: 45px;
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}
+.opacity__descr {
+}
+.opacity__content {
+}
+
+.opacity__block-tag {
+}
+.opacity__inline-tag {
+  
+}
+
+.opacity__block-tag_theme_red {
+  background-color: red;
+}
+.opacity__block-tag_theme_blue {
+  background-color: blue;
+}
+.opacity__block-tag_theme_orange {
+  background-color: orange;
+}
+
+
+.opacity__inline-tag_theme_yellow {
+  background-color: yellow;
+}
+.opacity__inline-tag_theme_red {
+  background-color: red;
+}
+.opacity__inline-tag_theme_green {
+  background-color: green;
+}

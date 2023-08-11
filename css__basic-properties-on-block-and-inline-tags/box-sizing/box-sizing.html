@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="box-sizing.css">
+  <title>box-sizing</title>
+</head>
+
+<body class="page__body">
+  <header class="header">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="../padding/padding.html">padding</a></li>
+        <li class="menu__item"><a class="menu__link" href="../margin/margin.html">margin</a></li>
+        <li class="menu__item"><a class="menu__link" href="../width-height/width-height.html">width-height</a></li>
+        <li class="menu__item"><a class="menu__link" href="../overflow/overflow.html">overflow</a></li>
+        <li class="menu__item"><a class="menu__link" href="../display/display.html">display</a></li>
+        <li class="menu__item"><a class="menu__link" href="../border/border.html">border</a></li>
+        <li class="menu__item"><a class="menu__link" href="../box-shadow/box-shadow.html">box-shadow</a></li>
+        <li class="menu__item"><a class="menu__link" href="../opacity/opacity.html">opacity</a></li>
+        <li class="menu__item"><a class="menu__link" href="../visibility/visibility.html">visibility</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="box-sizing">
+      <h1 class="box-sizing__title">box-sizing</h1>
+      <p class="box-sizing__descr"><span class="important-word">box-sizing</span> - պատասխանատու է ըլեմենտի չափի վրա
+        padding-ի ազդեցություն ը, 
+      </p>
+      <ul class="display__list">
+        <li class="display__item">border-box - padding-ը կներառվի չափերի մեջ լայնությունը և բարձրությունը հաշվարկելիս</li>
+        <li class="display__item">content-box - padding չի ներառվի (default)</li>
+      </ul>
+      <br>
+      <div class="box-sizing__content">
+        <h2 class="box-sizing__subtitle">block tag</h2>
+        <p class="box-sizing__block-tag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quibusdam, optio
+          error veritatis reiciendis, adipisci unde vero nostrum ex necessitatibus ratione sunt assumenda enim expedita
+          officia. Ipsum vel officia sequi.
+        </p>
+      </div>
+      <br>
+      <div class="box-sizing__content">
+        <h2 class="box-sizing__subtitle">inline tag</h2>
+        <span class="box-sizing__inline-tag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maiores
+          natus
+          voluptatum tempora obcaecati accusantium quos reiciendis molestias possimus modi, vero beatae optio, autem
+          blanditiis explicabo dolorem deleniti dicta voluptatem!
+        </span>
+      </div>
+      <br>
+      <div class="box-sizing__content">
+        <h2 class="box-sizing__subtitle">inline-block tag</h2>
+        <img src="img/image.jpg" alt="tiger head">
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

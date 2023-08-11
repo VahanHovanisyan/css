@@ -1,0 +1,48 @@
+*,*::before,::after{box-sizing: inherit;}
+.page {box-sizing: border-box;}
+.page__body {
+  font-family: Arial, sans-serif;
+}
+.main {
+}
+.overflow {
+}
+.overflow__title {
+  font-size: 45px;
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}
+.overflow__descr {
+}
+.overflow__content {
+}
+
+.overflow__block-tag {
+  overflow: 20px;
+}
+.overflow__inline-tag {
+  
+}
+
+.overflow__block-tag_theme_red {
+  background-color: red;
+}
+.overflow__block-tag_theme_blue {
+  background-color: blue;
+}
+.overflow__block-tag_theme_orange {
+  background-color: orange;
+}
+
+
+.overflow__inline-tag_theme_yellow {
+  background-color: yellow;
+}
+.overflow__inline-tag_theme_red {
+  background-color: red;
+}
+.overflow__inline-tag_theme_green {
+  background-color: green;
+}

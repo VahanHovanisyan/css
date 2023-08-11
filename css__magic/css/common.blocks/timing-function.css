@@ -1,0 +1,55 @@
+.effect {
+  display: block;
+  height: 80px;
+  transition: 1s;
+  width: 230px;
+  margin: 20px 0px;
+  font-size: 25px;
+  color: #000;
+  font-weight: 700;
+}
+
+.timing-function__ease {
+  background-color: aquamarine;
+  transition-timing-function: ease;
+}
+
+.timing-function__ease-in {
+  background-color: rgb(64, 79, 112);
+  transition-timing-function: ease-in;
+}
+
+.timing-function__ease-out {
+  background-color: rgb(71, 126, 245);
+  transition-timing-function: ease-out;
+}
+
+.timing-function__ease-in-out {
+  background-color: rgb(29, 102, 29);
+  transition-timing-function: ease-in-out;
+}
+
+.timing-function__linear {
+  background-color: rgb(230, 113, 67);
+  transition-timing-function: linear;
+}
+
+.timing-function__cubic-bezier {
+  background-color: rgb(96, 231, 62);
+  transition-timing-function: cubic-bezier(0.07, 0.94, 0.97, -0.06);
+}
+
+.timing-function__steps {
+  background-color: rgb(231, 62, 62);
+  transition-timing-function: steps(10, end);
+}
+
+.timing-function__container {
+  border: 1px solid #000;
+  position: relative;
+
+}
+
+.timing-function__container:hover .effect {
+  width: 100%;
+}

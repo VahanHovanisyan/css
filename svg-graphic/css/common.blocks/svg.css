@@ -1,0 +1,89 @@
+.svg{background-color: cadetblue;}
+
+.svg__title{
+  margin: 0;
+  margin-bottom: 100px;
+  font-size: 60px;
+  line-height: 100%;
+  text-align: center;
+  color: rgb(204, 146, 0);
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.svg__title_large{
+  font-size: 150px;
+}
+
+.svg__subtitle{
+  display: block;
+  font-size: 30px;
+  color: chocolate;
+}
+
+.svg__section:not(:last-child) {
+  margin-bottom: 200px;
+}
+
+.svg__img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.svg__icon{
+  width: 200px;
+  height: 200px;
+}
+.svg__html{
+  width: 200px;
+  height: 200px;
+}
+.svg__animation{
+  width: 100%;
+  height: 100px;
+}
+
+.svg__animation-title{
+  margin: 0;
+  font-size: 50px;
+}
+
+.svg__text{
+  width: 100%;
+  height: 50px;
+}
+
+.svg__letter {
+  stroke: white;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 10%;
+  fill-opacity: 0;
+}
+.svg__letter_1 {
+  animation: svg-anim 3s forwards ;
+}
+.svg__letter_2 {
+  animation: svg-anim 3s 0.3s forwards ;
+}
+.svg__letter_3 {
+  animation: svg-anim 3s 0.6s forwards ;
+}
+.svg__letter_4 {
+  animation: svg-anim 3s 0.9s forwards ;
+}
+.svg__letter_5 {
+  animation: svg-anim 3s 1.2s forwards ;
+}
+
+@keyframes svg-anim {
+  90%{
+    fill-opacity: 0;
+  }
+  100%{
+    fill-opacity: 1;
+    fill: white;
+    stroke-dasharray: 0%;
+    stroke-dashoffset: 0%;
+  }
+}

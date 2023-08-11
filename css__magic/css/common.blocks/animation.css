@@ -1,0 +1,70 @@
+.animation{
+  height: 100%;
+}
+.animation__container{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.bird {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 200px;
+  left: -100%;
+  z-index: 2;
+  background: transparent;
+}
+.animation__container:hover .bird {
+  animation: bird 5s ease infinite 2s forwards;
+}
+.animation__container .bird:hover{
+  animation-play-state: paused;
+}
+
+@keyframes bird {
+  0% {
+    left: -100%;
+    transform: rotate(0deg);
+    bottom: 0;
+  }
+  25%{
+    bottom: 0;
+  }
+  50% {
+    bottom: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes bird-scale {
+  0% {
+  }
+  100% {
+    transform: scaleX(2);
+  }
+}
+
+.ocean {
+  position: absolute;
+  bottom: -100%;
+  transition: all 0.5s ease 0.5s;
+  width: 100%;
+  height: 60vh;
+}
+.animation__container:hover .ocean {
+  bottom: 0;
+}
+
+.clouds {
+  position: absolute;
+  top: -100%;
+  transition: all 0.5s ease 0s;
+  width: 100%;
+  height: 40vh;
+}
+.animation__container:hover .clouds {
+  top: 0;
+}

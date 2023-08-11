@@ -1,0 +1,124 @@
+.pseudoelem {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.pseudoelem__title {
+  font-size: 30px;
+
+}
+
+.pseudoelem__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pseudoelem__btn {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pseudoelem__btn_before::before {
+  content: "\2622";
+  font-size: 40px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  /* background: url(../../img/li.svg) center / 100% no-repeat; */
+  color: red;
+}
+
+.pseudoelem__btn_after::after {
+  content: "\2622";
+  color: green;
+}
+
+.pseudoelem__btn_marker::marker {
+  content: "btn";
+  color: aqua;
+}
+
+.pseudoelem__btn_mix::before {
+  content: "before-";
+  color: red;
+}
+
+.pseudoelem__btn_mix::after {
+  content: "-after";
+  color: green;
+}
+
+
+
+.pseudoelem__list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pseudoelem__item {
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+}
+
+.pseudoelem__item_before {
+  /* list-style-type: none; */
+  position: relative;
+}
+
+.pseudoelem__item_before::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../img/li.svg) center / 100% no-repeat;
+  /* color: red; */
+  /* position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blueviolet; */
+}
+
+.pseudoelem__item_after::after {
+  content: "-after";
+  color: green;
+}
+
+.pseudoelem__item_marker::marker {
+  content: "●";
+  font-size: 40px;
+  color: red;
+}
+
+.pseudoelem__item_mix::before {
+  content: "before-";
+  color: red;
+}
+
+.pseudoelem__item_mix::after {
+  content: "-after";
+  color: green;
+}
+
+.pseudoelem__item_mix::marker {
+  content: "marker-";
+  color: red;
+}
+
+.pseudoelem__text::first-line {
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.pseudoelem__text::first-letter {
+  color: rgb(43, 226, 76);
+  font-size: 30px;
+}

@@ -1,0 +1,25 @@
+.transition__container {
+  text-align: center;
+}
+
+.transition__button {
+  margin: 0px auto;
+  width: 200px;
+  height: 100px;
+  background-color: cadetblue;
+  box-shadow: 0px 3px 1px #000;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  transition-duration: 1s, 5s, 1s;
+  transition-property: top, background-color, box-shadow;
+}
+
+.transition__button:hover {
+  top: 2px;
+  background-color: rgb(231, 62, 50);
+  box-shadow: 0 2px #000;
+}

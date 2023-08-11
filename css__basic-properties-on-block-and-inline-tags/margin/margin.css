@@ -1,0 +1,47 @@
+*,*::before,::after{box-sizing: inherit;}
+.page {box-sizing: border-box;}
+.page__body {
+  font-family: Arial, sans-serif;
+}
+.main {
+}
+.margin {
+}
+.margin__title {
+  font-size: 45px;
+}
+.margin__text {
+}
+.margin__content {
+}
+.margin__block-tag {
+  margin: 20px;
+}
+.margin__inline-tag {
+  
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}
+
+.margin__block-tag_theme_red {
+  background-color: red;
+}
+.margin__block-tag_theme_blue {
+  background-color: blue;
+}
+.margin__block-tag_theme_orange {
+  background-color: orange;
+}
+
+
+.margin__inline-tag_theme_yellow {
+  background-color: yellow;
+}
+.margin__inline-tag_theme_red {
+  background-color: red;
+}
+.margin__inline-tag_theme_green {
+  background-color: green;
+}

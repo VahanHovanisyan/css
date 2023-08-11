@@ -1,0 +1,10 @@
+@import url(./reset.css);
+@import url(./mix-class.css);
+@import url(./common.blocks/main.css);
+@import url(./common.blocks/static.css);
+@import url(./common.blocks/relative.css);
+@import url(./common.blocks/absolute.css);
+@import url(./common.blocks/fixed.css);
+@import url(./common.blocks/sticky.css);
+
+

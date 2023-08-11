@@ -1,0 +1,48 @@
+*,*::before,::after{box-sizing: inherit;}
+.page {box-sizing: border-box;}
+.page__body {
+  font-family: Arial, sans-serif;
+}
+.main {
+}
+.size {
+}
+.size__title {
+  font-size: 45px;
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}
+.size__descr {
+}
+.size__content {
+}
+
+.size__block-tag {
+  font-size: 20px;
+}
+.size__inline-tag {
+  
+}
+
+.size__block-tag_theme_red {
+  background-color: red;
+}
+.size__block-tag_theme_blue {
+  background-color: blue;
+}
+.size__block-tag_theme_orange {
+  background-color: orange;
+}
+
+
+.size__inline-tag_theme_yellow {
+  background-color: yellow;
+}
+.size__inline-tag_theme_red {
+  background-color: red;
+}
+.size__inline-tag_theme_green {
+  background-color: green;
+}

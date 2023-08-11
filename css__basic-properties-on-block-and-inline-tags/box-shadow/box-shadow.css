@@ -1,0 +1,55 @@
+*,*::before,::after{box-sizing: inherit;}
+.page {box-sizing: box-shadow-box;}
+.page__body {
+  font-family: Arial, sans-serif;
+}
+.main {
+}
+.box-shadow {
+}
+.box-shadow__title {
+  font-size: 45px;
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}
+.box-shadow__descr {
+}
+.box-shadow__content {
+}
+
+.box-shadow__block-tag {
+}
+.box-shadow__inline-tag {
+  
+}
+
+.box-shadow__block-tag_theme_red {
+  margin: 0px auto;
+  width: 500px;
+  box-shadow: 0px 0px red, 0px 0px 0px 0px blue,0px 0px 0px 0px green;
+}
+.box-shadow__block-tag_theme_blue {
+
+}
+.box-shadow__block-tag_theme_orange {
+
+}
+
+
+.box-shadow__inline-tag_theme_yellow {
+  box-shadow: 0px 0px red, 0px 0px 0px 0px blue,0px 0px 0px 0px green;
+  text-shadow: 0px 0px 0px 0px red;
+}
+.box-shadow__inline-tag_theme_red {
+
+}
+.box-shadow__inline-tag_theme_green {
+
+}
+
+.box-shadow__img{
+  box-shadow: 0px 0px red, 0px 0px 0px 0px blue,0px 0px 0px 0px green;
+  
+}

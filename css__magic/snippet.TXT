@@ -1,0 +1,12 @@
+"magic transition": {
+		"scope": "css,scss",
+		"prefix": "tr",
+		"body": "transition: all 0.3s ease 0s;",
+		"description": "transition"
+	},
+	"magic animation": {
+		"scope": "css,scss",
+		"prefix": "a",
+		"body": "animation: name 1s ease infinite alternate 0s forwards;",
+		"description": "animation"
+	},

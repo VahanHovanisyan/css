@@ -1,0 +1,49 @@
+*,*::before,::after{box-sizing: inherit;}
+.page {box-sizing: border-box;}
+.page__body {
+  font-family: Arial, sans-serif;
+}
+.main {
+}
+.padding {
+}
+.padding__title {
+  font-size: 45px;
+}
+.padding__text {
+}
+.padding__content {
+}
+.padding__block-tag {
+  
+  padding: 20px;
+}
+.padding__inline-tag {
+  
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}
+
+.padding__block-tag_theme_red {
+  background-color: red;
+  
+}
+.padding__block-tag_theme_blue {
+  background-color: blue;
+}
+.padding__block-tag_theme_orange {
+  background-color: orange;
+}
+
+
+.padding__inline-tag_theme_yellow {
+  background-color: yellow;
+}
+.padding__inline-tag_theme_red {
+  background-color: red;
+}
+.padding__inline-tag_theme_green {
+  background-color: green;
+}

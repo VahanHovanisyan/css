@@ -1,0 +1,124 @@
+.pseudoclass {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.pseudoclass__title {
+  font-size: 30px;
+}
+.pseudoclass__section {
+}
+.pseudoclass__btn {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.3s ease 0s;
+}
+/* .pseudoclass__btn:focus{ */
+  /* outline: 4px solid #000; */
+/* } */
+
+.pseudoclass__btn_hover:hover {
+  transform: scale(1.2);
+  background-color: brown;
+  color: #fff;
+}
+.pseudoclass__btn_active:active {
+  transform: scale(1.2);
+  background-color: brown;
+  color: #fff;
+}
+.pseudoclass__btn_focus:focus {
+  transform: scale(1.2);
+  background-color: brown;
+  color: #fff;
+}
+.pseudoclass__btn_focus-visible:focus-visible {
+  transform: scale(1.2);
+  background-color: brown;
+  color: #fff;
+}
+.pseudoclass__btn_mix:focus {
+  outline: none;
+}
+.pseudoclass__btn_mix:focus-visible {
+  background-color: #0000ff;
+}
+.pseudoclass__btn_mix:hover {
+  background-color: brown;
+}
+.pseudoclass__btn_mix:active {
+  transform: scale(1.2);
+}
+
+
+
+.pseudoclass__link{
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.pseudoclass__link:visited{
+  color: #00fff7;
+}
+
+
+.pseudoclass__list {
+  display: inline-block;
+}
+.pseudoclass__item {
+  font-weight: 700;
+  font-size: 20px;
+}
+.pseudoclass__item_first:first-child {
+  background-color: #0000ff;
+  color: #43a81f;
+}
+.pseudoclass__item_last:last-child {
+  background-color: #0000ff;
+  color: #43a81f;
+}
+.pseudoclass__item_nth:nth-child(3) {
+  background-color: #0000ff;
+  color: #43a81f;
+}
+.pseudoclass__box{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.pseudoclass__item_nth_odd:nth-child(odd) {
+  background-color: #0000ff;
+  color: #43a81f;
+}
+.pseudoclass__item_nth_even:nth-child(even) {
+  background-color: #0000ff;
+  color: #43a81f;
+}
+
+
+
+.pseudoclass__item_mix:nth-child(odd) {
+  background-color: #00fff7;
+  color: #43a81f;
+}
+.pseudoclass__item_mix:nth-child(even) {
+  background-color: #c77fe5;
+  color: #43a81f;
+}
+
+.pseudoclass__item_mix:first-child {
+  background-color: #0000ff;
+  color: #43a81f;
+}
+.pseudoclass__item_mix:last-child {
+  background-color: #0000ff;
+  color: #43a81f;
+}
+.pseudoclass__item_mix:nth-child(3) {
+  background-color: #ff0000;
+  color: #43a81f;
+}

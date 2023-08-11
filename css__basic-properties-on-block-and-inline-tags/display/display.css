@@ -1,0 +1,47 @@
+*,*::before,::after{box-sizing: inherit;}
+.page {box-sizing: border-box;}
+.page__body {
+  font-family: Arial, sans-serif;
+}
+.main {
+}
+.display {
+}
+.display__title {
+  font-size: 45px;
+}
+.important-word{
+  color: #ff0000;
+  font-weight: 700;
+}
+.display__descr {
+}
+.display__content {
+}
+
+.display__block-tag {
+}
+.display__inline-tag {
+  
+}
+
+.display__block-tag_theme_red {
+  background-color: red;
+}
+.display__block-tag_theme_blue {
+  background-color: blue;
+}
+.display__block-tag_theme_orange {
+  background-color: orange;
+}
+
+
+.display__inline-tag_theme_yellow {
+  background-color: yellow;
+}
+.display__inline-tag_theme_red {
+  background-color: red;
+}
+.display__inline-tag_theme_green {
+  background-color: green;
+}
