@@ -1,0 +1,39 @@
+.threed {
+}
+
+.threed__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.threed__subtext {
+  margin: 0;
+  margin-bottom: 30px;
+  /* font-size: 40px; */
+}
+
+.threed__section{
+  border: 3px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.threed__section:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.threed__section-title {}
+
+.threed__text{
+  color: var(--dark);
+}
+.threed__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.threed__important-word{
+  font-weight: 700;
+  color: var(--light);
+}

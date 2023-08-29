@@ -1,0 +1,20 @@
+.second {}
+
+.second__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.second__text{
+  color: var(--light);
+}
+.second__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.second__important-word{
+  font-weight: 700;
+  color: var(--dark);
+}

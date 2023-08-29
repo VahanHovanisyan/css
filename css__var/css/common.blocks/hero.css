@@ -1,0 +1,22 @@
+.hero {
+
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.hero__text{
+  color: var(--dark);
+}
+.hero__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.hero__important-word{
+  font-weight: 700;
+  color: var(--light);
+}
